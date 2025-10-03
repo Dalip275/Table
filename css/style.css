@@ -1,0 +1,56 @@
+body {
+    background-color: #698840;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI',sans-serif;
+}
+.content h3{
+    display: inline-block;
+    font-size:50px;
+    margin-top: 2%;
+    margin-left: 23%;
+    font-weight: 700;
+    color: #fff;
+}
+#showarea table {
+    width:100%;
+    border-collapse: collapse;
+    margin-top: 2%;
+
+}
+#showarea th, #showarea td {
+    padding: 12px;
+    border-radius:8px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+#showarea th{
+    background: #ff6b6b;
+    color: #fff;
+}
+#showarea td{
+    background: rgba(255, 255, 255,0.2);
+    font-size: 25px;
+    border-radius: 13px;
+}
+#showarea td:hover{
+    transform: scale(1.1);
+    background: rgba(255, 255, 255,0.4);
+}
+@keyframes fadein{
+    from{opacity: 0; transform:translateY(20px);}
+    to{opacity: 1; transform:translateY(0);}
+}
+#tbno,button{
+    transition: transform 0.2s;
+    font-size: 25px;
+    padding: 10px 10px ;
+    margin: 11px 21px;
+    border-radius: 10px;
+    border: none;
+}
+#showbtn{
+    border-radius: 10px;
+}
+select:hover, button:hover{
+    transform: scale(1.05);
+}
